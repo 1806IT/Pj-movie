@@ -47,7 +47,7 @@ import { Common } from './common'
                 },
                 dataType: 'jsonp'
             }).done(function (ret) {
-                /* console.log(ret);*/
+                 console.log(ret);
                 self.index += 20;
                 if (self.index >= ret.total) {
                     self.isFinish = true
